@@ -100,6 +100,7 @@ html {
 /*INFO*/
 .container {
 	width: 100%;
+	display: inline-block;
 }
 .main-info {
 	width: 70%;
@@ -190,9 +191,23 @@ time {
   font-size: 1.5rem;
   margin-right: 18px;
 }
+/* //////// footer ////////*/
 
-
-
+.footer-main {
+	height: 150px;
+	background: #ed4e6e;
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px
+}
+.copyright {
+	font-size: 2rem;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 4%;
+  margin-left: 32px;
+  color: #4becc9;
+}
 
 
 
