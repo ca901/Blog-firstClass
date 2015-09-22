@@ -1,0 +1,6 @@
+/*Imagenes responsive*/
+img {
+	width:inherit;
+	max-width: 100%;
+	height: auto;
+}
