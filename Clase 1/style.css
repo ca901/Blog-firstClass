@@ -263,45 +263,45 @@ time {
 }/*1024*/
 
 /*///////////////// Articulo interesante /////////////////////////////////*/
+.container-articulo {
+  margin-top: 30px;
+  margin-left: -2px;
+}
+
 .articulo-item {
-    background-color: #e8e7e6;
-    margin-top: 32px;
-    width: 72%;
-    display: inline-block;
-    float: left;
+  background: #e8e7e6;
 }
 
 .articulo-text {
   font-size: 1.5rem;
-  margin-top: 10px;
-  width: 100%;
-  padding: 4rem;
 }
 
 .articulo-img {
-    display: inherit;
-    margin: 0 auto;
+  width: 75%;
+  margin-left: 12%;
 }
-.articulo-title {
-    padding: 4rem;
-}
+
 .articulos-time {
-    margin:0;
-    padding: 4rem;
+  display: inline-block;
+  margin-left: 7%;
+  margin-bottom: 16px;
 }
+
 .articulo-item h3 {
-    padding: 4rem;
-    margin-top: -22px;
 }
 
 .articulo-correo {
-  padding: 0px 41px;
-  margin-top: -31px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: -24px;
 }
 
-
-
+.articulo-text ,
+.articulo-title ,
+.articulo-item h3 ,
+.articulo-correo {
+  padding: 6%;
+}
+/*///////////680 ///////////*/
 
 
 
