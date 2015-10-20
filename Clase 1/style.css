@@ -80,18 +80,15 @@ img {
 
 /*Nav*/
 .main-nav {
-  height: 50px;
   margin-left: -3px;
-  background-color: #ed4e6e;
   width: 100%;
   margin-top: 30px;
-  height: 80px;
-
 }
 .main-nav ul {
   list-style: none;
   margin: 0;
-  display: inline-block;
+  display: none;
+  background: #ed4e6e;
 }
 
 .main-nav li {
@@ -100,11 +97,22 @@ img {
 }
 .list-item {
   font-size: 19px;
-  margin-left: 29px;
-  margin-top: 12px;
-  width: 35%;
-  }
-
+  margin-top: 15px;
+  margin-bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.menu-r {
+  width: 100%;
+  background: #e8e7e6;
+  height: 35px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#menu-responsive {
+  color: #000;
+  text-decoration: none;
+}
 /*INFO*/
 .container {
 	width: 100%;
@@ -220,6 +228,15 @@ time {
   margin-left: 32px;
   color: #4becc9;
 }
+@media (min-width: 640px) {
+    .info-item {
+    background-color: #e8e7e6;
+    height: 361px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 30px;
+  }
+}
 @media (min-width: 680px) { /* de 680 para arriba*/
   .info-item {
     background-color: #e8e7e6;
@@ -233,9 +250,14 @@ time {
   }
   .main-nav ul {
     padding: 20px;
+    display: block;
   }
   .list-item {
     width: auto;
+    margin-left: 9%;
+  }
+  .menu-r {
+    display: none;
   }
 }/*680*/
 @media (min-width: 1024px) {
@@ -256,13 +278,16 @@ time {
     display: inline-block;
     overflow: hidden;
     margin-top: 32px;
-}
-.copyright {
-  margin-top: 2%;
-}
+  }
+  .copyright {
+    margin-top: 2%;
+  }
+  .list-item {
+    width: auto;
+    margin-left: 6%;
+  }
 }/*1024*/
 
-/*///////////////// Articulo interesante /////////////////////////////////*/
 .container-articulo {
   margin-top: 30px;
   margin-left: -2px;
@@ -301,32 +326,3 @@ time {
 .articulo-correo {
   padding: 6%;
 }
-/*///////////680 ///////////*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
